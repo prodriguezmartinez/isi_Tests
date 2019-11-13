@@ -1,0 +1,29 @@
+count Positive:
+1. Fallo cuenta cero como positivo y es natural no positivo.
+2. Si la lista es null --> se eleva excepción en x.length y no ejecuta el código con el error. 
+3.Poniendo por ejemplo -1, 2, 3,-10. Siempre que no se incluya el cero.
+4.Nunca. 
+6.Quitar en la condición >= 0 y poner >0.
+
+lastZero
+1.Cuenta el primer cero no el último.
+2.si la lista es cero, en x.length se eleva excepcion y no ejecuta el código que está mal.
+3. Cuando tu array se compone sólamente del cero. la i = 0.
+4. Cuando solo un cero en una lista de números y cuando no hay ningún cero.
+5. El bucle debería ir al revés.
+
+
+findLast:
+1. no cuenta el primer elemento que hay porque el for va hasta i>0 en vez de i>=0.
+2.nose puede porque el fallo está en la condición del for y siempre vamos a ejecutarla.
+3. que no sea el número buscado  el primero  de la lista. 
+4. no se puede, el test no pasa nunca cuando hay error en el estado porque la i está correcta siempre a excepción de la primera posición y ahí es cuando falla el test·
+6. Cambiar el for a i>=0.
+
+
+oddOrPos:
+1. los impares que son negativos no los cuenta.
+2. Si la lista está vacía no se ejecuta el if porque salta la excepción.
+3. Que no haya negativos.
+4. no se puede porque si hay un impar negativo no lo cuenta en ninguno de los casos.
+5. Añadir la condicion con un or de que numero%2 =-1
